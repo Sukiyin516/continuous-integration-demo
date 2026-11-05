@@ -2,7 +2,7 @@ import math
 # this function determines whether the number is a prime number
 def is_prime(number):
     if number < 2:
-        return True
+        return False
     for i in range(2, int(math.sqrt(number))):
         if number % i == 0:
             return False
